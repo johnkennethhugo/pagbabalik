@@ -2,17 +2,30 @@
   text-align: center;
   max-width: vw;
   max-height: vh;
-  overflow: hidden;
-  border: 5 px solid red;
 }
-
 .timer-container {
-  border: 5 px solid red;
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.timer-head{
+  justify-content: space-between !important;
+  font-size: calc(10px + 2vw);
+}
+.timer-container-table{
+  position: relative;
+  font-size: calc(25px + 5vw);
+}
+.timer-container-image{
+  position: absolute;
+  bottom: calc(-5vh - 350px);
+  transition: 0.5s;
+}
+.timer-container-image:hover{
+  position: absolute;
+  bottom: -10vh;
 }
