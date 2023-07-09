@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pagbabalik/static/css/main.afc59907.css",
+    "main.js": "/pagbabalik/static/js/main.c2cd3a13.js",
+    "static/media/000.png": "/pagbabalik/static/media/000.9ee414e2782e20d9e555.png",
+    "index.html": "/pagbabalik/index.html",
+    "main.afc59907.css.map": "/pagbabalik/static/css/main.afc59907.css.map",
+    "main.c2cd3a13.js.map": "/pagbabalik/static/js/main.c2cd3a13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afc59907.css",
+    "static/js/main.c2cd3a13.js"
+  ]
+}
